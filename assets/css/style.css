@@ -69,7 +69,7 @@ section{
     padding: 60px;
 }
 
-.hero {
+.hero-cta {
     background-image: url("../images/hero-bg.jpeg");
     height: 600px;
     background-size: cover;
