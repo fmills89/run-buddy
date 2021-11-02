@@ -42,7 +42,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -82,6 +82,7 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
     
 .hero-cta {
@@ -90,7 +91,7 @@ section{
     margin: 3.5;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -140,17 +141,6 @@ section{
     font-size: 16px;
 }
 
-
-/*.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}*/
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -160,22 +150,12 @@ section{
     text-align: center;
 }
 
-
 .steps {
     background: #fce138;
 }
 
-/*.steps h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
-}*/
-
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -352,4 +332,16 @@ section{
 
 .flex-row {
     display:flex;
+}
+
+@media screen and (max-width: 980px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+   
 }
